@@ -1,6 +1,7 @@
 attach: true
 root: ./
 startup_window: mocap
+pre_window: tmux set mouse on
 windows:
   - mocap:
       layout:

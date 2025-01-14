@@ -6,6 +6,7 @@ drone_namespace = @settings["drone_namespace"]
 attach: true
 root: ./
 startup_window: rosbag
+pre_window: tmux set mouse on
 windows:
   - rosbag:
       layout:

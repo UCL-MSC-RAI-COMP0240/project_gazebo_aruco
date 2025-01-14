@@ -28,6 +28,7 @@ end
 attach: false
 root: ./
 startup_window: alphanumeric_viewer
+pre_window: tmux set mouse on
 windows:
   - alphanumeric_viewer:
       layout: tiled

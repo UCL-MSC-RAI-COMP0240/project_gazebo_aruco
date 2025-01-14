@@ -11,6 +11,7 @@ use_sim_time      = true
 attach: true
 root: ./
 startup_window: gazebo
+pre_window: tmux set mouse on
 windows:
   - gazebo:
       layout:
